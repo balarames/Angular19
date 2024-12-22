@@ -18,7 +18,7 @@ export class HomeComponent {
           //image: 'assets/cheese-burger.jpg',
         },
         {
-          name: 'Chicken Burger9963',
+          name: 'Chicken Burger9963100',
           price: 299,
           //image: 'assets/chicken-burger.jpg',
         },
