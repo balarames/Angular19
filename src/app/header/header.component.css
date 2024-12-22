@@ -1,0 +1,18 @@
+.header {
+  background-color: #ffc107;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.cart-icon i {
+  font-size: 24px;
+  color: #000;
+}

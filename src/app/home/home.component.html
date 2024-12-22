@@ -1,0 +1,25 @@
+<div class="search-bar">
+  <input type="text" placeholder="Search" />
+  <button>
+    <i class="material-icons">search</i>
+  </button>
+</div>
+
+<div class="category" *ngFor="let category of burgerCategories">
+  <h2>{{ category.title }}</h2>
+  <div class="burger-container">
+    <div *ngFor="let burger of category.items" class="burger-card">
+      <!-- <img [src]="burger" alt="{{ burger.name }}" /> -->
+      <img
+        alt="Cheese Burger"
+        class="w-full h-32 object-cover"
+        height="150"
+        src="https://storage.googleapis.com/a1aa/image/xao12nmgLubhKhktzfT4YfysZS7YQXKoBVCXu0kAhFktffVPB.jpg"
+        width="150"
+      />
+      <h3>{{ burger.name }}</h3>
+      <p>₹{{ burger.price }}</p>
+      <button (click)="addToCart(burger)">Add to Cart</button>
+    </div>
+  </div>
+</div>
