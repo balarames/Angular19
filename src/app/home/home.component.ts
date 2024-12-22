@@ -23,7 +23,7 @@ export class HomeComponent {
           //image: 'assets/chicken-burger.jpg',
         },
         {
-          name: 'Veg Burger',
+          name: 'Veg Burger-bali',
           price: 99,
           //image: 'assets/chicken-burger.jpg',
         },
