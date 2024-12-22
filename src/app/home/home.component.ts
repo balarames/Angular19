@@ -13,7 +13,7 @@ export class HomeComponent {
       title: 'Popular Item',
       items: [
         {
-          name: 'Cheese Burger',
+          name: 'Cheese Burger-fucking',
           price: 199,
           //image: 'assets/cheese-burger.jpg',
         },
